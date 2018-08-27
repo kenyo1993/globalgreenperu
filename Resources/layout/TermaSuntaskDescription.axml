@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/terma1"
+        android:layout_width="match_parent"
+        android:layout_height="143.5dp"
+        android:scaleType="centerInside"
+        android:id="@+id/termasuntaskdescription"
+        android:foregroundGravity="right" />
+    <TextView
+        android:text="Nombre:Terma Suntask de 600 litros"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="Descrpción:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:id="@+id/textViewtam3" />
+    <TextView
+        android:text="1. Las termas solares SUNTASK son originales."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="29.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="2. Las capacidades se otorgan en medidas reales."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="44.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="3. Todos los equipos son duales, se pueden incorporar resistencia eléctrica a consideración del cliente, incluye la resistencia, más no su instalación."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="89.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="4. Los precios incluyen la entrega a domicilio y la instalación gratuita para todo el Valle del Mantaro."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="72.5dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="5. Para otras provincias se deberá adicionar entre S/. 200.00 y S/. 250.00 según la distancia, por razones de traslado del equipo, la instalación es gratuita."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="6. Se brinda servicio integrado a provincias de la región Huancavelica, Pasco y Junín, en 48 horas desde la ciudad de Huancayo, para otras regiones se atiende a pedido bajo coordinación con los clientes interesados."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:id="@+id/textViewtam2" />
+    <TextView
+        android:text="7. Los equipos tienen una garantía certificada de 4 años desde su instalación."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="32.0dp"
+        android:id="@+id/textViewtam2" />
+</LinearLayout>

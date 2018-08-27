@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/kitsbanner"
+        android:layout_width="match_parent"
+        android:layout_height="25.5dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="161.5dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="2.0dp">
+        <ImageButton
+            android:src="@drawable/kit1"
+            android:layout_width="211.0dp"
+            android:layout_height="135.0dp"
+            android:id="@+id/imagekit1"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginRight="98.5dp"
+            android:foregroundGravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_weight="0.5"
+            android:scaleType="fitXY"
+            android:saveEnabled="false" />
+        <TextView
+            android:text="Kit Solar HB-90 de 3.5W Con radio MP3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="161.5dp"
+        android:id="@+id/linearLayout2"
+        android:layout_marginBottom="2.0dp">
+        <ImageButton
+            android:src="@drawable/kit2"
+            android:layout_width="211.0dp"
+            android:layout_height="135.0dp"
+            android:id="@+id/imagekit2"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginRight="98.5dp"
+            android:foregroundGravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_weight="0.5"
+            android:scaleType="fitXY"
+            android:saveEnabled="false" />
+        <TextView
+            android:text="Kit Solar GC-56 de 4W Con radio MP3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="161.5dp"
+        android:id="@+id/linearLayout3"
+        android:layout_marginBottom="2.0dp">
+        <ImageButton
+            android:src="@drawable/kit3"
+            android:layout_width="211.0dp"
+            android:layout_height="135.0dp"
+            android:id="@+id/imagekit3"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginRight="98.5dp"
+            android:foregroundGravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_weight="0.5"
+            android:scaleType="fitXY"
+            android:saveEnabled="false" />
+        <TextView
+            android:text="Kit Solar HB-100 de 5.5W Con radio MP3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <TextView
+        android:text="RIWATT.GLOBALGREENPERU.COM"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:gravity="center_horizontal" />
+</LinearLayout>
